@@ -87,6 +87,7 @@ const games = [
     }
 ];
 
+
 const gameNights = [
     {
         date: "2026-10-06",
@@ -123,8 +124,6 @@ const gameNights = [
    ============================================================ */
 
 const gameMap = Object.fromEntries(games.map(game => [game.id, game]));
-const gameToURL = Object.fromEntries(games.map(game => [game.id, bgg_url]));
-
 
 let displayedMonth = new Date();
 displayedMonth.setDate(1);
@@ -173,7 +172,7 @@ function renderNextNight() {
                 <p class="eyebrow">NEXT GAME NIGHT</p>
                 <h2>${formatDate(night.date, { weekday: "long", month: "long", day: "numeric" })}</h2>
                 <div class="next-date">${night.time} · ${night.location}</div>
-                <div class="next-games">${gameNames}</div>
+                <div class="next-games"><a href="#games">${gameNames}</a></div>
             </div>
             <a class="rsvp-button" href="${night.rsvp}" target="_blank" rel="noopener">
                 RSVP →
@@ -294,8 +293,6 @@ function renderGames() {
             <div>
                 <h3>${game.name}</h3>
                 <p class="game-description">${game.description}</p>
-                <a href="${game.bgg_url}">More Info <\a>
-                <
             </div>
             <div class="game-meta">
                 <div class="meta-item">
@@ -309,6 +306,9 @@ function renderGames() {
                 <div class="meta-item">
                     <span class="meta-label">Play Time</span>
                     <span class="meta-value">${game.time}</span>
+                </div>
+               <div class="meta-item">
+                    <span class="meta-link"><a href="${game.bgg_url}">More Info</a></span>
                 </div>
             </div>
         </article>
