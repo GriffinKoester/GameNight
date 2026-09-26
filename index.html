@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weekly Game Night">
+    <title>Weekly Game Night</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#">🎲 Weekly Game Night</a>
+            <nav>
+                <a href="#calendar">Calendar</a>
+                <a href="#games">Game Library</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <p class="eyebrow">EVERY WEEK • GOOD GAMES • GOOD PEOPLE</p>
+                <h1>Let's play something.</h1>
+                <p class="hero-text">
+                    Check the schedule, see what games are available, and RSVP for the next game night.
+                </p>
+            </div>
+        </section>
+
+        <section class="container next-night-section">
+            <div id="next-night"></div>
+        </section>
+
+        <section id="calendar" class="container section">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">SCHEDULE</p>
+                    <h2>Game Night Calendar</h2>
+                </div>
+                <div class="calendar-controls">
+                    <button id="prev-month" aria-label="Previous month">←</button>
+                    <button id="today-month">Today</button>
+                    <button id="next-month" aria-label="Next month">→</button>
+                </div>
+            </div>
+
+            <div class="calendar">
+                <div class="calendar-header">
+                    <span>Sun</span><span>Mon</span><span>Tue</span>
+                    <span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+                </div>
+                <div id="calendar-grid" class="calendar-grid"></div>
+            </div>
+
+            <div id="selected-night" class="selected-night"></div>
+        </section>
+
+        <section id="games" class="container section">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">GAME LIBRARY</p>
+                    <h2>What can we play?</h2>
+                </div>
+                <p id="game-count" class="muted"></p>
+            </div>
+
+            <div id="game-grid" class="game-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <span>🎲 Weekly Game Night</span>
+            <span>Built with HTML, CSS & JavaScript • Hosted on GitHub Pages</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
