@@ -349,6 +349,11 @@ nav a:hover {
     font-size: 1.3rem;
 }
 
+.game-card a {
+    position: bottom;
+    font-size: 1.1rem;
+}
+
 .game-description {
     color: var(--muted);
     margin: 0 0 18px;
@@ -379,6 +384,13 @@ nav a:hover {
 .meta-value {
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+.meta-link {
+    color: var(--muted);
+    font-size: 0.45rem;
+    text-transform: lowercase;
+    text-decoration: underline;
 }
 
 /* Footer */
