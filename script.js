@@ -14,22 +14,13 @@
 
 const games = [
     {
-        id: "pandemic",
-        name: "Pandemic",
-        genre: "Co-op resource management",
-        players: "2–4",
-        time: "30-45 min",
-        description: "Collaborate with your teammates to erradicate diseases before they destroy humanity",
-        bgg_url: "https://boardgamegeek.com/boardgame/30549/pandemic"
-    },
-    {
-        id: "wingspan",
-        name: "Wingspan",
-        genre: "Engine Building",
-        players: "1–5",
-        time: "40–70 min",
-        description: "Build a wildlife preserve and attract birds with powerful combinations of food, eggs, and abilities.",
-        bgg_url: "https://boardgamegeek.com/boardgame/266192/wingspan"
+        id: "cockroach-poker",
+        name: "Cockroach Poker",
+        genre: "Bluffing Card Game",
+        players: "2-6",
+        time: "20 min",
+        description: "A bluffing game where players hand out cards to each other and try and trick each other into collecting a set of the same type of card",
+        bgg_url: "https://boardgamegeek.com/boardgame/11971/cockroach-poker"
     },
     {
         id: "codenames",
@@ -50,13 +41,31 @@ const games = [
         bgg_url: "https://boardgamegeek.com/boardgame/271601/feed-the-kraken"
     },
     {
-        id: "sheriff-of-nottingham",
-        name: "Sheriff of Nottingham",
-        genre: "Social Deduction",
-        players: "3-5",
-        time: "60 min",
-        description: "Players act as merchants trying to bring their wares (and sometimes contraband) into the city of Nottingham, and the Sheriff decides who gets passed the gate. Bribery, lying, and smuggling are all encouraged",
-        bgg_url: "https://boardgamegeek.com/boardgame/157969/sheriff-of-nottingham"
+        id: "jackbox-games",
+        name: "Jackbox Party Games",
+        genre: "Party Games",
+        players: "2-6",
+        time: "10 min",
+        description: "Quiplash, Trivia Murder Party, and more games played from your phone. Technically not a board game, but it fits the vibe",
+        bgg_url: "https://www.jackboxgames.com/"
+    },
+    {
+        id: "monikers",
+        name: "Monikers",
+        genre: "Party Game",
+        players: "2-12",
+        time: "30-45 min",
+        description: "Get your friends to guess the name on the card with different rule each round",
+        bgg_url: "https://boardgamegeek.com/boardgame/156546/monikers"
+    },
+    {
+        id: "pandemic",
+        name: "Pandemic",
+        genre: "Co-op",
+        players: "2–4",
+        time: "30-45 min",
+        description: "Collaborate as a team of scientists to erradicate diseases before they destroy humanity",
+        bgg_url: "https://boardgamegeek.com/boardgame/30549/pandemic"
     },
     {
         id: "rebel-princess",
@@ -68,22 +77,22 @@ const games = [
         bgg_url: "https://boardgamegeek.com/boardgame/381249/rebel-princess"
     },
     {
-        id: "cockroach-poker",
-        name: "Cockroach Poker",
-        genre: "Bluffing Card Game",
-        players: "2-6",
-        time: "20 min",
-        description: "A bluffing game where players hand out cards to each other and try and trick each other into collecting a set of the same type of card",
-        bgg_url: "https://boardgamegeek.com/boardgame/11971/cockroach-poker"
+        id: "sheriff-of-nottingham",
+        name: "Sheriff of Nottingham",
+        genre: "Social Deduction",
+        players: "3-5",
+        time: "60 min",
+        description: "Players act as merchants trying to bring their wares (and sometimes contraband) into the city of Nottingham, and the Sheriff decides who gets passed the gate. Bribery, lying, and smuggling are all encouraged",
+        bgg_url: "https://boardgamegeek.com/boardgame/157969/sheriff-of-nottingham"
     },
     {
-        id: "jackbox-games",
-        name: "Jackbox Party Games",
-        genre: "online party games",
-        players: "2-6",
-        time: "10 min",
-        description: "Quiplash, Trivia Murder Party, and more games played from your phone",
-        bgg_url: "https://www.jackboxgames.com/"
+        id: "wingspan",
+        name: "Wingspan",
+        genre: "Engine Building",
+        players: "1–5",
+        time: "40–70 min",
+        description: "Build a wildlife preserve and attract birds with powerful combinations of food, eggs, and abilities.",
+        bgg_url: "https://boardgamegeek.com/boardgame/266192/wingspan"
     }
 ];
 
