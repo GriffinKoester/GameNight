@@ -387,10 +387,11 @@ nav a:hover {
 }
 
 .meta-link {
-    color: var(--muted);
-    font-size: 0.45rem;
-    text-transform: lowercase;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: capitalize;
     text-decoration: underline;
+    position: center;
 }
 
 /* Footer */
