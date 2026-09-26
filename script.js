@@ -37,7 +37,7 @@ const games = [
         genre: "Social Deduction",
         players: "2–5",
         time: "45 - 90 min",
-        description: "Crews of pirates and sailors fight to steer their ship in the right direction, while a hidden cult of The Kraken try to (literally) overthrow the crew ",
+        description: "Crews of pirates and sailors fight to steer their ship in the right direction, while a secret cult of Kraken worshipers try to (literally) overthrow the crew ",
         bgg_url: "https://boardgamegeek.com/boardgame/271601/feed-the-kraken"
     },
     {
